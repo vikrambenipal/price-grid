@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'karla-regular';
+    src: url(Karla/static/Karla-Regular.ttf);
+}
+
+h1 {
+    font-family: 'karla-regular';
+}
