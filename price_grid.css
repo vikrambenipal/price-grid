@@ -20,3 +20,24 @@ li {
     font-family: 'karla-regular';
     list-style-type: none;
 }
+button {
+    font-family: 'karla-bold';
+}
+
+.app-container {
+    width: 635px;
+    display: grid;
+    grid-template-columns: 635px 318px;
+    grid-template-areas: "header header";
+    align-content: center;
+}
+.join {
+    border: 2px solid black;
+    grid-area: header;
+}
+.monthly {
+    border: 2px solid black;
+}
+.why {
+    border: 2px solid black;
+}
