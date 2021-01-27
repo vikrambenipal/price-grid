@@ -25,19 +25,25 @@ button {
 }
 
 .app-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -237.5px;
+    margin-left: -317.5px;
     width: 635px;
-    display: grid;
-    grid-template-columns: 635px 318px;
-    grid-template-areas: "header header";
+    display: grid; 
+    grid-template-rows: 216px 259px;
     align-content: center;
 }
 .join {
     border: 2px solid black;
-    grid-area: header;
+    grid-column: 1 / 3;
 }
 .monthly {
     border: 2px solid black;
+    /* width: 317px; */
 }
 .why {
     border: 2px solid black;
+    /* width: 318px; */
 }
